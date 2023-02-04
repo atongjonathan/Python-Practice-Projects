@@ -1,9 +1,9 @@
-import math
+def paperwork(n, m):
+    if m > 0 and n > 0 :
+        result = n*m
+    else:
+        result = 0
+    return result
 
-def square_numbers(numbers):
-    result = 0
-    for number in numbers:
-        result += number ** 2
-    print(result)
 
-square_numbers([1,2,2])
+print(paperwork(-5,5))
